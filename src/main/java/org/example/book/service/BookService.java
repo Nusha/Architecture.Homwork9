@@ -1,6 +1,5 @@
 package org.example.book.service;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+
 import org.springframework.stereotype.Service;
 import org.example.book.model.Book;
 import org.example.book.repository.*;
@@ -10,7 +9,6 @@ import java.util.List;
 
 
 @Service
-//@SpringBootApplication
 public class BookService {
     private final BookRepository bookRepository;
 
